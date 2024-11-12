@@ -1,6 +1,8 @@
-if you  need the 3D modle of this  keyboard，you can  connect me by Email。380465425@qq.com
-# zmk-config-corne
+# ZMK for Corne-j keyboard
 
+I don't have the keyboard yet. The Corne-j is a Chinese-built variant of the
+Corne v3, with an nRF MCU, Sharp low-power screens, a rotary encoder and a
+five-way switch.
 
 <img src="keymap-drawer/corne.svg" >
 

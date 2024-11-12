@@ -56,7 +56,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "COLEMAK"
+            display-name = "COLEMAK";
 
             // --------------------------------------------------------------------------------
             // | ESC  |  Q  |  W  |  F  |  P  |  B  |                ↑    |  J  |  L   |  U  |  Y  |  ;  | BKSP |
