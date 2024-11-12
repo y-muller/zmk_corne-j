@@ -1,46 +1,46 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   default:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
-  - E
-  - R
-  - T
-  - $$mdi:arrow-up-bold$$
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
-  - A
-  - S
-  - D
   - F
+  - P
+  - B
+  - $$mdi:arrow-up-bold$$
+  - J
+  - L
+  - U
+  - Y
+  - {t: ;, s: ':'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
+  - A
+  - R
+  - S
+  - T
   - G
   - $$mdi:arrow-down-bold$$
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - M
+  - N
+  - E
+  - I
+  - O
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
+  - D
   - V
-  - B
   - $$mdi:arrow-left-bold$$
-  - N
-  - M
+  - K
+  - H
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
-  - $$mdi:keyboard-space$$
+  - {t: '''', s: '"'}
+  - $$mdi:volume-off$$
   - LGUI
   - lower
   - {t: '$$mdi:keyboard-space$$', h: '3'}
