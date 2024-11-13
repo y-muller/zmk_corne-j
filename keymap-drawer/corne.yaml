@@ -196,3 +196,18 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
+combos:
+- p: [21, 34]
+  k: _
+- p: [20, 21]
+  k: {h: '-', s: _}
+- p: [9, 22]
+  k: {t: '''', s: '"'}
+- p: [10, 23]
+  k: '"'
+- p: [17, 30]
+  k: ':'
+- p: [16, 29]
+  k: {t: ;, s: ':'}
+- p: [24, 37]
+  k: '!'
