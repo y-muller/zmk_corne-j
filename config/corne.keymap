@@ -35,6 +35,19 @@
             time-to-max-speed-ms = <400>;      // 500
             delay-ms = <0>;                   // 10
         };
+
+        comma_grave: comma_grave {
+            compatible = "zmk,behavior-mod-morph";
+            bindings = <&kp COMMA>, <&kp GRAVE>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        dot_tilde: dot_tilde {
+            compatible = "zmk,behavior-mod-morph";
+            bindings = <&kp DOT>, <&kp TILDE>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
     };
 
     rgb_encoder: rgb_encoder {
