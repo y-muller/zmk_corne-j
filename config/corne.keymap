@@ -38,12 +38,14 @@
 
         comma_grave: comma_grave {
             compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
             bindings = <&kp COMMA>, <&kp GRAVE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         dot_tilde: dot_tilde {
             compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
             bindings = <&kp DOT>, <&kp TILDE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
