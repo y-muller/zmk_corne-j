@@ -36,8 +36,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - K
   - H
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - {t: ',', s: '`'}
+  - {t: ., s: '~'}
   - {t: /, s: '?'}
   - {t: '''', s: '"'}
   - $$mdi:volume-off$$
