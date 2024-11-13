@@ -36,14 +36,14 @@
             delay-ms = <0>;                   // 10
         };
 
-        comma_grave: comma_grave {
+        comm_grv: comma_grave {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp COMMA>, <&kp GRAVE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        dot_tilde: dot_tilde {
+        dot_tld: dot_tilde {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp DOT>, <&kp TILDE>;
@@ -118,7 +118,7 @@
             // ├──────┼─────┼─────┼─────┼─────┼─────┤           ┃     ┃   ├─────┼─────┼─────┼─────┼─────┼──────┤
             // │ TAB  │  A  │  R  │  S  │  T  │  G  │           ┃  ↓  ┃   │  M  │  N  │  E  │  I  │  O  │ ENT  │
             // ├──────┼─────┼─────┼─────┼─────┼─────┤           ┃     ┃   ├─────┼─────┼─────┼─────┼─────┼──────┤
-            // │ CTRL │  Z  │  X  │  C  │  D  │  V  │           ┃  ←  ┃   │  K  │  H  │  ,  │  .  │  /  │  '   │
+            // │ CTRL │  Z  │  X  │  C  │  D  │  V  │           ┃  ←  ┃   │  K  │  H  │ , ` │ . ~ │  /  │  '   │
             // └┲━━━━━┷┱────┴─────┴─┬───┴─┬───┴─┬───┴─┐         ┃     ┃ ┌─┴───┬─┴───┬─┴───┬─┴─────┴─────┴──────┘
             //  ┃ MUTE ┃            │ GUI │ SFT │ SPC │         ┃  →  ┃ │ ENT │ SPC │ ALT │
             //  ┗━━━━━━┛            └─────┴─────┴─────┘         ┃     ┃ └─────┴─────┴─────┘
@@ -128,7 +128,7 @@
             bindings = <
 &kp ESC    &kp Q  &kp W      &kp F     &kp P  &kp B          &kp UP_ARROW     &kp J        &kp L  &kp U      &kp Y    &kp SEMI  &kp BSPC
 &kp TAB    &kp A  &kp R      &kp S     &kp T  &kp G          &kp DOWN_ARROW   &kp M        &kp N  &kp E      &kp I    &kp O     &kp ENTER
-&kp LCTRL  &kp Z  &kp X      &kp C     &kp D  &kp V          &kp LEFT_ARROW   &kp K        &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp SQT
+&kp LCTRL  &kp Z  &kp X      &kp C     &kp D  &kp V          &kp LEFT_ARROW   &kp K        &kp H  &comm_grv  &dot_tld &kp FSLH  &kp SQT
   &kp C_MUTE                 &kp LGUI  &mo 1  &lt 3 SPACE    &kp RIGHT_ARROW  &lt 3 ENTER  &mo 2  &kp RALT
                                                              &kp ENTER
             >;
