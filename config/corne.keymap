@@ -52,6 +52,46 @@
         tap-ms = <30>;
     };
 
+
+    combos {
+        compatible = "zmk,combos";
+        combo_under {
+            timeout-ms = <50>;
+            key-positions = <21 34>;
+            bindings = <&kp UNDER>;
+        };
+        combo_minus {
+            timeout-ms = <50>;
+            key-positions = <20 21>;
+            bindings = <&kp MINUS>;
+        };
+        combo_sqt {
+            timeout-ms = <50>;
+            key-positions = <9 22>;
+            bindings = <&kp SQT>;
+        };
+        combo_dqt {
+            timeout-ms = <50>;
+            key-positions = <10 23>;
+            bindings = <&kp DQT>;
+        };
+        combo_colon {
+            timeout-ms = <50>;
+            key-positions = <17 30>;
+            bindings = <&kp COLON>;
+        };
+        combo_semi {
+            timeout-ms = <50>;
+            key-positions = <16 29>;
+            bindings = <&kp SEMI>;
+        };
+        combo_excl {
+            timeout-ms = <50>;
+            key-positions = <24 37>;
+            bindings = <&kp EXCL>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
