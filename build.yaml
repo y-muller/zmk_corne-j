@@ -1,8 +1,8 @@
 include:
  
-  - board: corne-j
+  - board: corne
     shield: settings_reset
-  - board: corne-j_left
+  - board: corne_left
     shield: nice_view_adapter nice_view
-  - board: corne-j_right
+  - board: corne_right
     shield: nice_view_adapter nice_view
