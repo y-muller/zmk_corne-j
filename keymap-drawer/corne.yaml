@@ -199,15 +199,25 @@ layers:
 combos:
 - p: [21, 34]
   k: _
+  l: [default]
 - p: [20, 21]
   k: {h: '-', s: _}
+  l: [default]
 - p: [9, 22]
   k: {t: '''', s: '"'}
+  l: [default]
 - p: [10, 23]
   k: '"'
+  l: [default]
 - p: [17, 30]
   k: ':'
+  l: [default]
 - p: [16, 29]
   k: {t: ;, s: ':'}
+  l: [default]
 - p: [24, 37]
   k: '!'
+  l: [default]
+- p: [2, 3]
+  k: Ctl+ S
+  l: [default]
